@@ -67,3 +67,91 @@ console.log(gameName.split('-'));  /* The split() method of String values takes
 // const strCopy = str.split();
 // console.log(strCopy);
 // // Expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*  
+🔍Searching & Matching
+
+charAt(index)
+
+charCodeAt(index)
+
+codePointAt(index)
+
+includes(searchString[, position])
+
+indexOf(searchValue[, fromIndex])
+
+lastIndexOf(searchValue[, fromIndex])
+
+startsWith(searchString[, position])
+
+endsWith(searchString[, length])
+
+match(regexp)
+
+matchAll(regexp)
+
+search(regexp)
+
+✂️ Manipulation
+
+slice(beginIndex[, endIndex])
+
+substring(indexStart[, indexEnd])
+
+substr(start[, length) ⚠️ Deprecated
+
+split([separator[, limit]])
+
+replace(searchFor, replaceWith)
+
+replaceAll(searchFor, replaceWith)
+
+🧼 Case & Whitespace
+
+toLowerCase()
+
+toUpperCase()
+
+toLocaleLowerCase([locale])
+
+toLocaleUpperCase([locale])
+
+trim()
+
+trimStart() / trimLeft()
+
+trimEnd() / trimRight()
+
+🔄 Repeating & Padding
+
+repeat(count)
+
+padStart(targetLength[, padString])
+
+padEnd(targetLength[, padString])
+
+🧱 Construction & Conversion
+
+concat(...strings)
+
+normalize([form]) — Unicode normalization
+
+toString()
+
+valueOf()
+
+📦 Iteration & Raw
+
+[Symbol.iterator]() — for for...of loops
+
+String.prototype.at(index) — supports negative indexing
+
+String.raw (static method) — not instance, but relevant when working with template literals
+
+ */

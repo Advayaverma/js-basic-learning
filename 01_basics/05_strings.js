@@ -5,7 +5,9 @@ const repoCount = 4
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('Advaya-verma')
+const gameName = new String('Advaya-verma')   /* The "new" keyword in JavaScript is used to create an
+                                                instance of an object that has a constructor function. It’s
+                                                 how we make objects from constructor functions or classes. */
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);    /* To access prototype */

@@ -1,39 +1,39 @@
 // array
 
-const myArr = [0, 1, 2, 3, 4, 5]
-const myHeors = ["shaktiman", "naagraj"]
+const myArray = [0, 1, 2, 3, 4, 5]
+const myHeroes = ["Goku", "Luffy"]
 
-const myArr2 = new Array(1, 2, 3, 4)
-// console.log(myArr[1]);
+const myArray2 = new Array(1, 2, 3, 4)
+console.log(myArray[1]);
 
 // Array methods
 
-// myArr.push(6)
-// myArr.push(7)
-// myArr.pop()
+// myArray.push(6)  /**add element to the end of array */
+// myArray.push(7)
+// myArray.pop()   /**remove element from end of array */
 
-// myArr.unshift(9)
-// myArr.shift()
+myArray.unshift(4)  /*add element in start of array */
+myArray.shift()   /* remove element from start of array */
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(3));
+console.log(myArray.includes(9));
+console.log(myArray.indexOf(3));
 
-// const newArr = myArr.join()
+const newArray = myArray.join()  /**joins the array elements in the for of a string */
 
-// console.log(myArr);
-// console.log( newArr);
+console.log(myArray);
+console.log(newArray);
 
 
 // slice, splice
 
-console.log("A ", myArr);
+console.log("A ", myArray);
 
-const myn1 = myArr.slice(1, 3)
+const arr1 = myArray.slice(1, 3)
 
-console.log(myn1);
-console.log("B ", myArr);
+console.log(arr1);
+console.log("B ", myArray);
 
 
-const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);
-console.log(myn2);
+const arr2 = myArray.splice(1, 3)
+console.log(arr2);
+console.log("C ", myArray);

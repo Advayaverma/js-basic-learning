@@ -1,7 +1,7 @@
 const marvel_heroes = ["Thor", "Ironman", "Spiderman"]
 const dc_heroes = ["Superman", "Flash", "Batman"]
 
-// marvel_heroes.push(dc_heroes)
+// marvel_heroes.push(dc_heroes)  /**pushing the whole array of dc_heroes into marvel_heroes including `[]` */
 
 // console.log(marvel_heroes);
 // console.log(marvel_heroes[3][1]);
@@ -9,23 +9,23 @@ const dc_heroes = ["Superman", "Flash", "Batman"]
 // const allHeroes = marvel_heroes.concat(dc_heroes)
 // console.log(allHeroes);
 
-const all_new_heroes = [...marvel_heroes, ...dc_heroes]
+const all_new_heroes = [...marvel_heroes, ...dc_heroes]  /**`...` spreads each element of array */
 
 console.log(all_new_heroes);
 
-const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]  
 
-const real_another_array = another_array.flat(Infinity)
+const real_another_array = another_array.flat(Infinity)  /**concatenates complex arrays  */
 console.log(real_another_array);
 
 
 
-console.log(Array.isArray("Advaya"))
-console.log(Array.from("Advaya"))
-console.log(Array.from({name: "advaya"})) // interesting
+console.log(Array.isArray("Advaya")) /**checks array */
+console.log(Array.from("Advaya"))  /**converts to array */
+console.log(Array.from({name: "advaya"})) // interesting  
 
 let score1 = 100
 let score2 = 200
 let score3 = 300
 
-console.log(Array.of(score1, score2, score3));
+console.log(Array.of(score1, score2, score3)); /**returns a new set of array from set of elements  */

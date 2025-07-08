@@ -1,17 +1,17 @@
-const marvel_heros = ["thor", "Ironman", "spiderman"]
-const dc_heros = ["superman", "flash", "batman"]
+const marvel_heroes = ["Thor", "Ironman", "Spiderman"]
+const dc_heroes = ["Superman", "Flash", "Batman"]
 
-// marvel_heros.push(dc_heros)
+// marvel_heroes.push(dc_heroes)
 
-// console.log(marvel_heros);
-// console.log(marvel_heros[3][1]);
+// console.log(marvel_heroes);
+// console.log(marvel_heroes[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)
-// console.log(allHeros);
+// const allHeroes = marvel_heroes.concat(dc_heroes)
+// console.log(allHeroes);
 
-const all_new_heros = [...marvel_heros, ...dc_heros]
+const all_new_heroes = [...marvel_heroes, ...dc_heroes]
 
-// console.log(all_new_heros);
+console.log(all_new_heroes);
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
@@ -20,9 +20,9 @@ console.log(real_another_array);
 
 
 
-console.log(Array.isArray("Hitesh"))
-console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.isArray("Advaya"))
+console.log(Array.from("Advaya"))
+console.log(Array.from({name: "advaya"})) // interesting
 
 let score1 = 100
 let score2 = 200

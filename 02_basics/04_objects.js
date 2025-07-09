@@ -2,10 +2,10 @@
 const tinderUser = {}
 
 tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
+tinderUser.name = "Advaya"
 tinderUser.isLoggedIn = false
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 const regularUser = {
     email: "some@gmail.com",

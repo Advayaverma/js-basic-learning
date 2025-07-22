@@ -76,15 +76,17 @@ const {courseInstructor: instructor} = course  /**courseInstructor as instructor
 console.log(instructor);
 
 // console.log(courseInstructor);
+
+// *************************JSON****************
 // {
 //     "name": "advaya",
 //     "coursename": "JS",
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
 

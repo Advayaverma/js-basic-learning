@@ -64,14 +64,21 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// ********************************** 
 
-// console.log(courseInstructor);
+
+// OBJECTS DESTRUCTURING
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course  /**courseInstructor as instructor */
 console.log(instructor);
 
+// console.log(courseInstructor);
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "name": "advaya",
+//     "coursename": "JS",
 //     "price": "free"
 // }
 

@@ -15,10 +15,10 @@ if (true) {
 
 
 function one(){
-    const username = "hitesh"
+    const username = "advaya"
 
     function two(){
-        const website = "youtube"
+        const website = "w3schools"
         console.log(username);
     }
     // console.log(website);
@@ -30,9 +30,9 @@ function one(){
 // one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
-        const website = " youtube"
+    const username = "advaya"
+    if (username === "advaya") {
+        const website = " w3schools"
         // console.log(username + website);
     }
     // console.log(website);
@@ -42,9 +42,10 @@ if (true) {
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
+// 2 types to define functions
 
 
-console.log(addone(5))
+console.log(addone(5))   /**this will not show error */
 
 function addone(num){
     return num + 1
@@ -52,7 +53,8 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)  /**this will show error since function is held in a variable */
+
 const addTwo = function(num){
     return num + 2
 }

@@ -1,11 +1,11 @@
 
 function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
+    console.log("A");
+    console.log("D");
+    console.log("V");
+    console.log("A");
+    console.log("Y");
+    console.log("A");
 }
 
 // sayMyName()
@@ -27,7 +27,7 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
+function loginUserMessage(username = "verma_advaya"){
     if(!username){
         console.log("PLease enter a username");
         return
@@ -35,8 +35,11 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("advaya"))
+// console.log(loginUserMessage())
+
+
+/**Example of shopping cart where we do not know how many parameters will be present */
 
 
 function calculateCartPrice(val1, val2, ...num1){
@@ -46,8 +49,8 @@ function calculateCartPrice(val1, val2, ...num1){
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
-    prices: 199
+    username: "advaya",
+    prices: 700
 }
 
 function handleObject(anyobject){
@@ -56,8 +59,8 @@ function handleObject(anyobject){
 
 // handleObject(user)
 handleObject({
-    username: "sam",
-    price: 399
+    username: "verma_advaya",
+    price: 700
 })
 
 const myNewArray = [200, 400, 100, 600]

@@ -10,22 +10,25 @@ const user = {
 }
 
 // user.welcomeMessage()
-// user.username = "sam"
+// user.username = "superman"
 // user.welcomeMessage()
 
 // console.log(this);
 
 // function hello(){
 //     let username = "advaya"
-//     console.log(this.username);
+//     console.log(this.username);   /**can be used only in object not in function */
 // }
 
 // hello()
 
 // const hello = function () {
-//     let username = "advaya"
-//     console.log(this.username);
+//     let username = "advaya"  
+//     console.log(this.username);   /**can be used only in object not in function */
 // }
+
+
+//////////ARROW FUNCTION 
 
 const hello =  () => {
     let username = "advaya"
@@ -35,7 +38,7 @@ const hello =  () => {
 
 // hello()
 
-// const addTwo = (num1, num2) => {
+// const addTwo = (num1, num2) => {          /**if we use "{}" we have to use return */
 //     return num1 + num2
 // }
 

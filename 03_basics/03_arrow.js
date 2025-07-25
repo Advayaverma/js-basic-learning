@@ -1,6 +1,6 @@
 const user = {
-    username: "hitesh",
-    price: 999,
+    username: "advaya",
+    price: 1000,
 
     welcomeMessage: function() {
         console.log(`${this.username} , welcome to website`);
@@ -15,25 +15,25 @@ const user = {
 
 // console.log(this);
 
-// function chai(){
-//     let username = "hitesh"
+// function hello(){
+//     let username = "advaya"
 //     console.log(this.username);
 // }
 
-// chai()
+// hello()
 
-// const chai = function () {
-//     let username = "hitesh"
+// const hello = function () {
+//     let username = "advaya"
 //     console.log(this.username);
 // }
 
-const chai =  () => {
-    let username = "hitesh"
+const hello =  () => {
+    let username = "advaya"
     console.log(this);
 }
 
 
-// chai()
+// hello()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
@@ -43,7 +43,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "advaya"})
 
 
 console.log(addTwo(3, 4))

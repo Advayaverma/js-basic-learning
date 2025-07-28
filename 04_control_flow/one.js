@@ -9,8 +9,8 @@ const temperature = 41
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==   /**"===" is used to strictly check the type as well */
-
+// <, >, <=, >=, ==, !=, ===, !==   /**"===" and "!==" is used to strictly check the type as well */
+                                    
 // const score = 200
 
 // if (score > 100) {

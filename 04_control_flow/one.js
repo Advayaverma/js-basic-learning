@@ -2,14 +2,14 @@
 const isUserloggedIn = true
 const temperature = 41
 
-// if ( temperature === 40 ){
+// if ( temperature === 40 ){  
 //     console.log("less than 50");
 // } else {
 //     console.log("temperature is greater than 50");
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==, !=, ===, !==   /**"===" is used to strictly check the type as well */
 
 // const score = 200
 

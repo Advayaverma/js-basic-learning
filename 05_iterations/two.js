@@ -1,8 +1,8 @@
 
-let index = 0
-// while (index <= 10) {
-//     console.log(`Value of index is ${index}`);
-//     index = index + 2
+let i = 0
+// while (i <= 10) {
+//     console.log(`Value of i is ${i}`);
+//     i = i + 2
 // }
 
 let myArray = ['flash', "batman", "superman"]

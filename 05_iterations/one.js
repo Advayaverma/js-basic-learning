@@ -1,7 +1,7 @@
 // for
 
-for (let i = 0; i <= 10; i++) {
-    const element = i;
+for (let index = 0; index <= 10; index++) {
+    const element = index;
     if (element == 5) {
         //console.log("5 is best number");
     }
@@ -21,14 +21,17 @@ for (let i = 1; i <= 10; i++) {
 }
 let myArray = ["flash", "batman", "superman"]
 //console.log(myArray.length);
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
+for (let i = 0; i < myArray.length; i++) {
+    const element = myArray[i];
     //console.log(element);
     
 }
 
 
 // break and continue
+
+// break breaks us out of loop
+// continue skips that iteration
 
 // for (let index = 1; index <= 20; index++) {
 //     if (index == 5) {

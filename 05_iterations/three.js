@@ -1,4 +1,4 @@
-// for of
+// for of loop
 
 // ["", "", ""]
 // [{}, {}, {}]
@@ -32,7 +32,8 @@ for (const [key, value] of map) {
 const myObject = {
     game1: 'NFS',
     game2: 'Spiderman'
-}
+}   /**objects are not iterable */
+
 
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);

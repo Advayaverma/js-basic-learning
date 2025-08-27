@@ -31,9 +31,9 @@
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
 
-    // third value (true/false) is for event propagation
-    // false is for bubbling
-    // true is for capturing mode 
+    /* third value (true/false) is for event propagation
+     false is for bubbling
+     true is for capturing mode*/ 
 
     // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
@@ -57,11 +57,12 @@
             console.log(e.target.id);
             let removeIt = e.target.parentNode
             removeIt.remove()
+            //removeIt.parentNode.removeChild(removeIt)
         }
     
         
     })
     
-    //removeIt.parentNode.removeChild(removeIt)
+    
 </script>
 </html>

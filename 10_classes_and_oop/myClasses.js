@@ -16,7 +16,7 @@ class User {
 
 }
 
-const chai = new User("chai", "chai@gmail.com", "123")
+const user1 = new User("advaya", "advaya@gmail.com", "123")
 
 console.log(chai.encryptPassword());
 console.log(chai.changeUsername());
@@ -37,7 +37,7 @@ User.prototype.changeUsername = function(){
 }
 
 
-const tea = new User("tea", "tea@gmail.com", "123")
+const user2 = new User("av", "av@gmail.com", "123")
 
-console.log(tea.encryptPassword());
-console.log(tea.changeUsername());
+console.log(user1.encryptPassword());
+console.log(user2.changeUsername());

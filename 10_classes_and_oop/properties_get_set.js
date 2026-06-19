@@ -21,6 +21,6 @@ function User(email, password){
 
 }
 
-const chai = new User("chai@chai.com", "chai")
+const tea = new User("tea@tea.com", "tea")
 
-console.log(chai.email);
+console.log(tea.email);
